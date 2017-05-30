@@ -1,0 +1,23 @@
+// Using 1.250 – Major Third
+// www.type-scale.com
+
+$base-icon-size: 1rem;
+$base-icon-scale: 1.250;
+
+
+$icon-size-0: $base-icon-size; // 1rem
+
+$icon-size--1: $icon-size-0 / $base-icon-scale; // 0.8rem
+$icon-size--2: $icon-size--1 / $base-icon-scale; // 0.64rem
+$icon-size--3: $icon-size--2 / $base-icon-scale; // 0.512rem
+$icon-size--4: $icon-size--3 / $base-icon-scale; // 0.4096rem
+$icon-size--5: $icon-size--4 / $base-icon-scale; // 0.3276rem
+
+$icon-size-1: $icon-size-0 * $base-icon-scale; // 1.25rem
+$icon-size-2: $icon-size-1 * $base-icon-scale; // 1.5625rem
+$icon-size-3: $icon-size-2 * $base-icon-scale; // 1.9531rem
+$icon-size-4: $icon-size-3 * $base-icon-scale; // 2.4414rem
+$icon-size-5: $icon-size-4 * $base-icon-scale; // 3.0517rem
+
+
+// Specific variables due icon font implementation. Special sizing below

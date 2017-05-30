@@ -1,0 +1,21 @@
+// Margins and paddings
+// Using 1.250 – Major Third
+// www.type-scale.com
+
+$base-spacing-size: 1rem;
+$base-spacing-scale: 1.250;
+
+$spacing-0: $base-spacing-size; // 1rem
+
+$spacing--1: $spacing-0 / $base-spacing-scale; // 0.8rem
+$spacing--2: $spacing--1 / $base-spacing-scale; // 0.64rem
+$spacing--3: $spacing--2 / $base-spacing-scale; // 0.512rem
+$spacing--4: $spacing--3 / $base-spacing-scale; // 0.4096rem
+$spacing--5: $spacing--4 / $base-spacing-scale; // 0.3276rem
+$spacing--6: $spacing--5 / $base-spacing-scale; // 0.26208rem
+
+$spacing-1: $spacing-0 * $base-spacing-scale; // 1.25rem
+$spacing-2: $spacing-1 * $base-spacing-scale; // 1.5625rem
+$spacing-3: $spacing-2 * $base-spacing-scale; // 1.9531rem
+$spacing-4: $spacing-3 * $base-spacing-scale; // 2.4414rem
+$spacing-5: $spacing-4 * $base-spacing-scale; // 3.0517rem

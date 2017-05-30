@@ -1,0 +1,21 @@
+// Using 1.250 – Major Third
+// www.type-scale.com
+
+$base-font-size: 1rem;
+$large-font-scale: 1.250;
+$small-font-scale: 1.125;
+
+$font-size-0: $base-font-size; // 1rem
+
+$font-size--1: $font-size-0 / $small-font-scale; // 0.8rem
+$font-size--2: $font-size--1 / $small-font-scale; // 0.64rem
+$font-size--3: $font-size--2 / $small-font-scale; // 0.512rem
+$font-size--4: $font-size--3 / $small-font-scale; // 0.4096rem
+$font-size--5: $font-size--4 / $small-font-scale; // 0.3276rem
+
+
+$font-size-1: $font-size-0 * $large-font-scale; // 1.25rem
+$font-size-2: $font-size-1 * $large-font-scale; // 1.5625rem
+$font-size-3: $font-size-2 * $large-font-scale; // 1.9531rem
+$font-size-4: $font-size-3 * $large-font-scale; // 2.4414rem
+$font-size-5: $font-size-4 * $large-font-scale; // 3.0517rem

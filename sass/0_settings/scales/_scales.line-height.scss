@@ -1,0 +1,19 @@
+// Using 1.250 – Major Third
+// www.type-scale.com
+
+$base-line-height: 1;
+$base-line-scale: 1.250;
+
+$line-height-0: $base-line-height; // 1
+
+$line-height--1: $line-height-0 / $base-line-scale; // 0.8
+$line-height--2: $line-height--1 / $base-line-scale; // 0.64
+$line-height--3: $line-height--2 / $base-line-scale; // 0.512
+$line-height--4: $line-height--3 / $base-line-scale; // 0.4096
+$line-height--5: $line-height--4 / $base-line-scale; // 0.3276
+
+$line-height-1: $line-height-0 * $base-line-scale; // 1.25
+$line-height-2: $line-height-1 * $base-line-scale; // 1.5625
+$line-height-3: $line-height-2 * $base-line-scale; // 1.9531
+$line-height-4: $line-height-3 * $base-line-scale; // 2.4414
+$line-height-5: $line-height-4 * $base-line-scale; // 3.0517
